@@ -1,4 +1,4 @@
-# 📉 Customer Churn Prediction: Random Forest Classifier
+# 📉 Customer Churn Prediction using Machine Learning 
 
 This project focuses on developing a robust machine learning solution to predict **customer churn**, a critical business challenge. By identifying customers at high risk of leaving, companies can proactively deploy targeted retention strategies and maximize customer lifetime value.
 
