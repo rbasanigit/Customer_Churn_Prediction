@@ -20,12 +20,14 @@ The core objective was to build and evaluate several classification models to ac
 
 * 🥇 **High-Accuracy Prediction:** Identified and optimized the **Random Forest Classifier** as the final, high-performance solution.
 
+* ⚡ **Live Inference Function:** Included a dedicated prediction function and interactive dashboard to test real-world customer data instantly.
+
 ---
 
 ## 💻 Tech Stack
 
 | Category | Tools | Description | 
- | :--- | :--- | :--- | 
+| :--- | :--- | :--- | 
 | **Language** | Python 3.x | Core programming language for data science. | 
 | **Environment** | Jupyter Notebook | Interactive platform for analysis and modeling. | 
 | **Data Handling** | Pandas, NumPy | Essential libraries for data manipulation and numerical computation. | 
@@ -38,10 +40,16 @@ The core objective was to build and evaluate several classification models to ac
 After rigorous testing on the validation dataset, the **Random Forest Classifier** demonstrated significantly superior performance compared to the traditional baseline model.
 
 | Model | Metric | Result | 
- | :--- | :--- | :--- | 
+| :--- | :--- | :--- | 
 | **Logistic Regression** (Baseline) | Test Accuracy | **81.90%** | 
 | **Random Forest Classifier** (Ensemble) | Test Accuracy | **92.37%** | 
 
 The Random Forest model's accuracy of **92.37%** makes it a highly effective tool for immediate deployment to support customer retention efforts.
 
 ---
+
+## 🔍 Interactive Prediction Interface
+
+The project now includes a deployment-ready function that allows for real-time churn assessment. By inputting specific customer attributes, the model provides:
+1. **Prediction:** A binary status (Churn/Stay).
+2. **Risk Probability:** The specific confidence level of the model (e.g., 77% risk).
